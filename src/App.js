@@ -4,13 +4,14 @@ import './index.css'
 import Navbar from './navbar';
 import Main from './main';
 import Program from './program'
+import Section1 from './section1'
 
 function App() {
   return (
     <div className="App">
       <Main/>
       <Program/>
-      {/* Section 1 */}
+      <Section1/>
       {/* Section 2 */}
       {/* Pricing */}
       {/* Member Reviews */}
