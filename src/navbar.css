@@ -1,0 +1,27 @@
+.join-btn{
+    background-color: #f6ac54;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
+}
+
+.join-btn:hover{
+    background-color: #1b1b1b;
+}
+
+.nav_link::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #f6ac54;
+    display: block; 
+    opacity: 0;
+    transition: .4s;
+    pointer-events: none;
+}
+
+.nav_link:hover::after, .nav_link:focus::after{
+    opacity: 1;
+    transition: .4s;
+}

@@ -1,0 +1,28 @@
+#program{
+    padding-top: 5rem;
+    color: white;
+    height: 100vh;
+}
+
+.program-btn{
+    transition: .4s;
+    background-color: #f6ac54;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.program-btn:hover{
+    transform: scale(1.025);
+    transition: .4s;
+}
+
+#cards > div{
+    transition: .4s;
+}
+
+#cards > :hover{
+    background-color: #2b2d2f;
+    cursor: pointer;
+    transition: .4s;
+    transform: translateY(-10px);
+}

@@ -1,0 +1,26 @@
+.btn{
+    background-color: #f6ac54;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: #1b1b1b;
+}
+
+#main-content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    transform: translate(-40%, -50%);
+
+
+}
+
+#main div h2{
+    width: 60%;
+}
