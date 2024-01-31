@@ -13,7 +13,7 @@ function program() {
      
       <div className='fill-white flex justify-around gap-[12vw] items-center pb-10 pt-[10vw] ' >
 
-          <h1 className='text-[4.5rem] font-extrabold' >
+          <h1 className='text-[4vw] font-extrabold' >
             Explore Our Program
           </h1>
 
