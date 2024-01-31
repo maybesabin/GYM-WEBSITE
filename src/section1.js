@@ -16,7 +16,7 @@ import gallery6 from './images/gallery/img6.jpg'
 function section1() {
   return (
     <div className=' text-white h-[100vh] ' id='service' >
-      <div className='flex justify-center gap-[3.5rem] flex-wrap items-center pb-10' >  
+      <div className='flex justify-center gap-[3.5rem] flex-wrap items-center pb-10 pt-[7rem]' >  
         <div className='w-[50%] flex flex-col text-center gap-4 ' >
             <h1 className='text-[5vw] font-extrabold' >
               Why Join Us?
@@ -66,7 +66,7 @@ function section1() {
 
       <div className='sectioncards ' id='gallery' >
         <h1>Gallery</h1>
-        <h3>- Our Remarkable Achievements and Our Gym Family -</h3>
+        <h3>- Our Remarkable Achievements and Gym Family -</h3>
         <div className='gallerycards' >
             <img src={gallery1} alt="" />
             <img src={gallery4} alt="" />

@@ -8,7 +8,7 @@ import Section1 from './section1'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen w-full bg-[#0d0e16]">
       <Main/>
       <Program/>
       <Section1/>
