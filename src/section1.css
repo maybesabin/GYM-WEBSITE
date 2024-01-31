@@ -1,0 +1,42 @@
+.sectioncards div img {
+    width: 350px;
+    aspect-ratio: 1/1;
+    transition: .4s;
+    filter: grayscale(0);
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.sectioncards div img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.sectioncards h1{
+    font-size: 4vw;
+}
+
+.sectioncards h3{
+    margin: -15px 0 35px 0 ;
+    font-size: 1vw;
+}
+
+.sectioncards{
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallerycards{
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
