@@ -31,10 +31,10 @@
 }
 
 @media (max-width:767px) {
-    #cards{
-        gap: 5vw;
-    }
+#cards{
+    gap: 5vw;
 }
+
 
 #cards > div{
     transition: .4s;
@@ -45,4 +45,19 @@
     cursor: pointer;
     transition: .4s;
     transform: translateY(-10px);
+}
+
+.program-texts{
+    justify-content: center;
+    
+}
+
+.program-texts h1{
+    font-size: 32px;
+}
+
+.program-texts svg{
+    width: 32px;
+}
+
 }

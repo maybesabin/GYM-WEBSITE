@@ -17,11 +17,44 @@
     left: 40%;
     color: white;
     transform: translate(-40%, -50%);
-
-
 }
 
 #main div h2{
     width: 60%;
 }
 
+#main div h4{
+    font-size: 1.25vw;
+}
+
+#main div h1{
+    font-size: 6vw;
+    line-height: 7vw;
+}
+
+
+@media (max-width: 767px) {
+    #main div h4{
+        font-size: 14px;
+    }
+
+    #main div h2{
+        width: 100%;
+    }
+
+    #main div h1{
+        width: 100%;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #main-content{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        color: white;
+        transform: translate(-20%, -40%);
+        gap: 2rem;
+    }
+}

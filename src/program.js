@@ -9,9 +9,9 @@ import logo1 from './images/logos/logo1.png'
 function program() {
   return (
 
-    <div id='program' className='' >
+    <div id='program' >
      
-      <div className='fill-white flex justify-around gap-[12vw] items-center pb-10 pt-[10vw] ' >
+      <div className='fill-white flex justify-around gap-[12vw] items-center pb-10 pt-[10vw] program-texts ' >
 
           <h1 className='text-[4vw] font-extrabold' >
             Explore Our Program
