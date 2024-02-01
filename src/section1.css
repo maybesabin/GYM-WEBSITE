@@ -15,12 +15,14 @@
 }
 
 .sectioncards h1{
-    font-size: 4vw;
+    font-size: 5rem;
 }
 
 .sectioncards h3{
     margin: -15px 0 35px 0 ;
-    font-size: 1vw;
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
 }
 
 .sectioncards{
@@ -40,3 +42,21 @@
     flex-wrap: wrap;
     width: 80%;
 }
+
+@media screen and (max-width: 767px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    .text-content {
+      padding: 2rem;
+    }
+
+    .gallerycards{
+        gap: 5vw;
+    }
+}
+
+

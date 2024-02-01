@@ -1,7 +1,10 @@
 #program{
     padding-top: 5rem;
-    color: white;
-    height: 100vh;
+    color: white;   
+    padding: 5vh 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .program-btn{
@@ -15,6 +18,22 @@
     transform: scale(1.025);
     transition: .4s;
     background-color: #f7a33c;
+}
+
+#cards{
+    height: 400px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+@media (max-width:767px) {
+    #cards{
+        gap: 5vw;
+    }
 }
 
 #cards > div{

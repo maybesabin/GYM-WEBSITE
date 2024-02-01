@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import logoimg from './images/main-logo.png'
+import logoimg from './images/dumbbell.png'
 import './navbar.css'
 
 function Navbar() {
@@ -21,9 +21,9 @@ function Navbar() {
   return (
     <div>
         <div className={navbar? 'navbar active' : 'navbar' } id='navbar' >
-            <div className='flex items-center justify-center' >
+            <div className='flex items-center justify-center gap-7' >
                 <img src={logoimg} alt="" srcset="" width="50px"  />
-                <h3>AB Fitness</h3>
+                <h3 className='font-extrabold' >AB Fitness</h3>
             </div>
 
             <div>

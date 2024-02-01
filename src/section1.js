@@ -15,7 +15,7 @@ import gallery6 from './images/gallery/img6.jpg'
 
 function section1() {
   return (
-    <div className=' text-white h-[100vh] ' id='service' >
+    <div className='text-white h-[100vh] ' id='service' >
       <div className='flex justify-center gap-[3.5rem] flex-wrap items-center pb-10 pt-[7rem]' >  
         <div className='w-[50%] flex flex-col text-center gap-4 ' >
             <h1 className='text-[5vw] font-extrabold' >
